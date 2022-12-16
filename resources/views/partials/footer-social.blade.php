@@ -66,11 +66,11 @@
         <a href="#" class="btn btn-outline-primary text-white">SIGN UP NOW!</a>
         <div class="wrapper_social d-flex align-items-center">
             <h6 class="text-primary">FOLLOW US</h6>
-            <img src="../../assets/img/footer-facebook.png" alt="">
-            <img src="../../assets/img/footer-twitter.png" alt="">
-            <img src="../../assets/img/footer-youtube.png" alt="">
-            <img src="../../assets/img/footer-pinterest.png" alt="">
-            <img src="../../assets/img/footer-periscope.png" alt="">
+            <img src="{{ Vite::asset('resources/images/footer-facebook.png') }}" alt="">
+            <img src="{{ Vite::asset('resources/images/footer-twitter.png') }}" alt="">
+            <img src="{{ Vite::asset('resources/images/footer-youtube.png') }}" alt="">
+            <img src="{{ Vite::asset('resources/images/footer-pinterest.png') }}" alt="">
+            <img src="{{ Vite::asset('resources/images/footer-periscope.png') }}" alt="">
 
         </div>
     </div>
