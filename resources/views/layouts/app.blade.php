@@ -15,10 +15,9 @@
     <!-- /header -->
 
     <main>
-        @include('partials.jumbotron')
-        @include ('partials.series')
         @yield('content')
     </main>
+    <!-- /main -->
 
     @include('partials.footer')
     <!-- /footer -->

@@ -6,48 +6,32 @@
                     <div class="col-4">
                         <div class="wrapper COMICS">
                             <h6>DC COMICS</h6>
-                            <a href="#">Characters</a>
-                            <a href="#">Comics</a>
-                            <a href="#">Movies</a>
-                            <a href="#">TV</a>
-                            <a href="#">Games</a>
-                            <a href="#">Videos</a>
-                            <a href="#">News</a>
-
+                            @foreach (Config('db.footer-dc-comics') as $link)
+                            <a href="{{$link['href']}}">{{$link['text']}}</a>
+                            @endforeach
                         </div>
                         <div class="wrapper SHOP">
                             <h6>SHOP</h6>
-                            <a href="#">Shop DC</a>
-                            <a href="#">Shop DC Collectibles</a>
+                            @foreach (Config('db.footer-wrapper-shop') as $link)
+                            <a href="{{$link['href']}}">{{$link['text']}}</a>
+                            @endforeach
                         </div>
 
                     </div>
                     <div class="col-4">
                         <div class="wrapper DC">
                             <h6>DC</h6>
-                            <a href="#">Terms Of Use</a>
-                            <a href="#">Privacy policy (New)</a>
-                            <a href="#">Ad Choices</a>
-                            <a href="#">Advertising</a>
-                            <a href="#">Jobs</a>
-                            <a href="#">Subscriptions</a>
-                            <a href="#">Talent Workshops</a>
-                            <a href="#">CPSC Certificates</a>
-                            <a href="#">Ratings</a>
-                            <a href="#">Shop Help</a>
-                            <a href="#">Contact Us</a>
-
-
+                            @foreach (Config('db.footer-wrapper-dc') as $link)
+                            <a href="{{$link['href']}}">{{$link['text']}}</a>
+                            @endforeach
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="wrapper SITES">
                             <h6>SITES</h6>
-                            <a href="#">DC</a>
-                            <a href="#">MAD Magazine</a>
-                            <a href="#">DC Kids</a>
-                            <a href="#">DC Universe</a>
-                            <a href="#">DC Power Visa</a>
+                            @foreach (Config('db.footer-wrapper-site') as $link)
+                            <a href="{{$link['href']}}">{{$link['text']}}</a>
+                            @endforeach
                         </div>
                     </div>
                     <div class="col-4">
@@ -71,7 +55,6 @@
             <img src="{{ Vite::asset('resources/images/footer-youtube.png') }}" alt="">
             <img src="{{ Vite::asset('resources/images/footer-pinterest.png') }}" alt="">
             <img src="{{ Vite::asset('resources/images/footer-periscope.png') }}" alt="">
-
         </div>
     </div>
 </section>

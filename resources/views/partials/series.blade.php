@@ -4,7 +4,7 @@
 
 
         <div class="row row-cols-6">
-            @foreach(Config::get('comics') as $comic)
+            @foreach(Config::get('db.comics') as $comic)
             <div class="col position-relative">
                 <a href="#" class="text-white">
                     <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}">
