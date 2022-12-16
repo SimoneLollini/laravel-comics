@@ -4,9 +4,9 @@
             <a href="/"><img src="../assets/img/dc-logo.png" alt=""></a>
         </div>
         <nav>
-            @foreach $link_collection as $element
+            @foreach(Config::get('nav-menu') as $element)
             <a href="" class="active_link">
-                ciao
+                {{$element['text']}}
             </a>
             @endforeach
         </nav>

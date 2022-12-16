@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'navList' => [
+    [
         'text' => 'CHARACTERS',
         'href' => '#'
     ],

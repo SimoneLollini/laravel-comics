@@ -14,9 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $link_collection = config('nav-menu.navList');
-    $data = [
-        $link_collection,
-    ];
-    return view('home', $data);
+
+    return view('home');
 });

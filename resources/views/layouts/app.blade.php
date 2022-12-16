@@ -15,7 +15,9 @@
     <!-- /header -->
 
     <main>
-        <h2>main</h2>
+        @include('partials.jumbotron')
+
+        @yield('content')
     </main>
 
     @include('partials.footer')
