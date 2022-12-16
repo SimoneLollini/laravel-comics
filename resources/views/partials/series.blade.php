@@ -6,8 +6,10 @@
         <div class="row row-cols-6">
             @foreach(Config::get('comics') as $comic)
             <div class="col position-relative">
-                <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}">
-                <div class="text_wrapper">{{ $comic['series'] }}</div>
+                <a href="#" class="text-white">
+                    <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}">
+                    <div class="text_wrapper">{{ $comic['series'] }}</div>
+                </a>
             </div>
             @endforeach
         </div>

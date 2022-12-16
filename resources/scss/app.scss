@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 $light_dark: #464646;
 $dark: #1C1C1C;
 $darker: #1C1C1C;
@@ -87,5 +91,30 @@ main {
         width: 90%;
         height: 30%;
         font-size: 12px;
+    }
+}
+
+
+.footer_nav {
+    background-color: $primary;
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        padding: 50px 0;
+
+        a {
+            text-decoration: none;
+
+            span {
+                font-size: $nav_size;
+                color: white;
+                padding-left: 10px;
+            }
+
+            img {
+                height: 30px;
+            }
+        }
     }
 }
