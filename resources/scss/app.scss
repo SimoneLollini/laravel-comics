@@ -44,6 +44,16 @@ header {
     }
 }
 
+img {
+    max-width: 100%;
+}
+
+main {
+    background-color: $dark;
+    color: white;
+    padding-bottom: 2rem;
+}
+
 .jumbotron {
     background-image: url(../images/jumbotron.jpg);
     height: 400px;
@@ -68,5 +78,14 @@ header {
         position: absolute;
         top: 0;
         translate: 0 -50%;
+    }
+
+    .text_wrapper {
+        position: absolute;
+        bottom: 0;
+        background-color: $dark;
+        width: 90%;
+        height: 30%;
+        font-size: 12px;
     }
 }

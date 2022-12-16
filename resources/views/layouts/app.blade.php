@@ -16,7 +16,7 @@
 
     <main>
         @include('partials.jumbotron')
-
+        @include ('partials.series')
         @yield('content')
     </main>
 

@@ -3,40 +3,40 @@
 return [
     [
         'text' => 'CHARACTERS',
-        'href' => '#'
+        'href' => '/characters'
     ],
     [
         'text' => 'COMICS',
-        'href' => '#'
+        'href' => '/comics'
     ],
     [
         'text' => 'MOVIES',
-        'href' => '#'
+        'href' => '/movies'
     ],
     [
         'text' => 'TV',
-        'href' => '#'
+        'href' => '/tv'
     ], [
         'text' => 'GAMES',
-        'href' => '#'
+        'href' => '/games'
     ],
     [
         'text' => 'COLLECTIBLES',
-        'href' => '#'
+        'href' => '/collectivles'
     ],
     [
         'text' => 'VIDEOS',
-        'href' => '#'
+        'href' => '/videos'
     ],
     [
         'text' => 'FANS',
-        'href' => '#'
+        'href' => '/fans'
     ], [
         'text' => 'NEWS',
-        'href' => '#'
+        'href' => '/news'
     ],
     [
         'text' => 'SHOP',
-        'href' => '#'
+        'href' => '/shop'
     ]
 ];

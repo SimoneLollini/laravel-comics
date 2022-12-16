@@ -5,7 +5,7 @@
         </div>
         <nav>
             @foreach(Config::get('nav-menu') as $element)
-            <a href="" class="active_link">
+            <a href="{{$element['href']}}">
                 {{$element['text']}}
             </a>
             @endforeach
