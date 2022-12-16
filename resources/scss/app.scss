@@ -118,3 +118,49 @@ main {
         }
     }
 }
+
+
+.col-6 {
+    display: flex;
+    align-items: center;
+}
+
+section.link {
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .col-6.right {
+        background-image: url(../images/dc-logo-bg.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .col-4 {
+        .wrapper {
+            padding: 1rem 0;
+
+            h6 {
+                color: white;
+            }
+
+            display: flex;
+            flex-direction: column;
+
+            a {
+                text-decoration: none;
+                color: rgba(177, 177, 177, 0.823);
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+section.social {
+    background-color: $dark;
+    padding: 1rem 0;
+
+    img {
+        margin-left: 1rem;
+    }
+}
